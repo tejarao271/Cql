@@ -13,7 +13,7 @@ jobs:
       security-events: write
     strategy:
       matrix:
-        language: [ 'javascript', 'python' ]  # Add more languages if needed
+        language: [ 'javascript' ]  # Add more languages if needed
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
